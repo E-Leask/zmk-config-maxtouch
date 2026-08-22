@@ -1,5 +1,5 @@
 # Matrix configuration for building your board + shield
 ---
 include:
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: maxtouch_test
