@@ -3,3 +3,5 @@
 include:
   - board: nice_nano
     shield: maxtouch_test
+  - board: nice_nano
+    shield: settings_reset
