@@ -25,6 +25,7 @@
     maxtouch_listener {
         compatible = "zmk,input-listener";
         device = <&touchpad>;
+        status = "disabled";
     };
 
     ext-power {
@@ -42,6 +43,7 @@
     status = "okay";
 
     touchpad: maxtouch@4b {
+        status = "disabled";
         reg = <0x4b>;
         compatible = "microchip,maxtouch";
         chg-gpios = <&pro_micro 6 GPIO_ACTIVE_LOW>;
