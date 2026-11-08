@@ -27,7 +27,7 @@
         device = <&touchpad>;
     };
 
-    ext-power {
+    EXT_POWER {
         status = "disabled";
     };
 };
